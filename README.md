@@ -176,6 +176,8 @@ your-repo/
 
 `manifest.json` tells the flasher which files to write and where.
 
+ If you have a data folder, copy manifest-with-filesystem.example.json over manifest.json and set your own offset.
+
 #### A. Firmware only (no `data` folder)
 
 ```json
