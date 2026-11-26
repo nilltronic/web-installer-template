@@ -1,14 +1,12 @@
 {
-  "name": "Gameboy WiFi Printer",
-  "version": "11.0.0",
-  "home_assistant_domain": null,
-  "new_install_prompt_erase": true,
+  "name": "My Project",
+  "version": "1.0.0",
+  "new_install_prompt_erase": false,
   "builds": [
     {
       "chipFamily": "ESP8266",
       "parts": [
-        { "path": "firmware.bin", "offset": 0 },
-        { "path": "littlefs.bin", "offset": 1048576 }
+        { "path": "firmware.bin", "offset": 0 }
       ]
     }
   ]
