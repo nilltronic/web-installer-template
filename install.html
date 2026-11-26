@@ -3,7 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gameboy WiFi Printer — Firmware Updater</title>
+<!--
+  TEMPLATE: things to edit for your project
+  1. <title> below: put your project name in it
+  2. The intro paragraph (class="sub")
+  3. The "Before you start" list
+  4. The note under the install button (say whether a filesystem is included)
+  5. Optional: the colours in the <style> block (the green is a Game Boy theme)
+  Also edit manifest.json and add your firmware.bin (and littlefs.bin if you have a data folder).
+-->
+<title>My Project — Firmware Updater</title>
+<!-- Tip: for a stable page, replace @10 with an exact version number once you have tested it -->
 <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
 <style>
   body {
@@ -76,19 +86,18 @@
 </head>
 <body>
 <div class="wrap">
-
   <h1>Firmware Updater</h1>
   <p class="sub">
-    Update your Gameboy WiFi Printer to the latest firmware directly from
+    Update your device to the latest firmware directly from
     this page — no Arduino IDE, no extra software.
   </p>
 
   <div class="card">
     <h2>Before you start</h2>
     <ol>
-      <li>Plug the printer into your computer with a USB cable.</li>
+      <li>Plug the device into your computer with a USB cable.</li>
       <li>Use <strong>Chrome</strong> or <strong>Edge</strong> — this won't work in Firefox or Safari, they don't support the browser feature this relies on.</li>
-      <li>Click <strong>Install</strong> below, then pick the printer's port when your browser asks (it'll usually show up as something like "USB-SERIAL CH340" or similar).</li>
+      <li>Click <strong>Install</strong> below, then pick the device's port when your browser asks (it'll usually show up as something like "USB-SERIAL CH340" or similar).</li>
     </ol>
   </div>
 
@@ -106,11 +115,10 @@
   </div>
 
   <p class="note">
-    This updates both the printer's firmware and its built-in frame set.<br>
-    A bad connection or unplugging mid-update won't damage the printer —
+    This updates your device's firmware.<br>
+    A bad connection or unplugging mid-update won't damage the device —
     if something goes wrong, just reconnect and try again.
   </p>
-
 </div>
 </body>
 </html>
